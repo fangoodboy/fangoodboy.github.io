@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
+title: Fangoodboy 
+subtitle: blog site
 description:
 keywords:
-author: John Doe
+author: Fang
 language:
 timezone:
 
@@ -78,4 +78,6 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repository: git@github.com:fangoodboy/fangoodboy.github.io.git
+  branch: deploy
